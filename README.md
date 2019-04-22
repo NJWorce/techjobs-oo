@@ -1,11 +1,13 @@
-# techjobs-oo
-Java / Spring Boot assignment
+In this Spring Boot project I enabled the loading of a csv file into Java model objects. 
+ 
+These model objects were created and edited through model binding, and validated through @Valid class annotations. 
 
-For this assignment the work I completed was as follows:
-Reading and comprehending code written by others.
-Working with model classes via a data access layer (in this case, JobData) retrieving data from a csv file.
-Using model binding and validation with model class annotations. 
-Utilizing Spring's Thymeleaf templating markup (similar to xml) to effectively render dynamic content.
+Once validated, these model objects are passed into the view. 
+
+There is a list function to view all the objects, and also a search function to find a specific object.
+
+Spring Thymeleaf templating markup was used to render dynamic content.
+
 
 
 
