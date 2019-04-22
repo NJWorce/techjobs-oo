@@ -1,4 +1,4 @@
-In this Spring Boot project I enabled the loading of a csv file into Java model objects. 
+In this Spring Boot project CSV data was loaded into Java model objects. 
  
 These model objects were created and edited through model binding, and validated through @Valid class annotations. 
 
